@@ -31,22 +31,7 @@ const projectData = [
         imgsrcTwo:"/pr-four (2).png",
         imgsrcThree:"/pr-four (3).png"
     },
-    {
-        id:5,
-        projectName:"Ecommerce Cart With Redux",
-        demo:"https://react-redux-cart-youtube.netlify.app/",
-        imgsrcOne:"/pr-one-1 (1).png",
-        imgsrcTwo:"/pr-one-1 (2).png",
-        imgsrcThree:"/pr-one-1 (3).png"
-    },
-    {
-        id:6,
-        projectName:"Crud App",
-        demo:"https://react-redux-cart-youtube.netlify.app/",
-        imgsrcOne:"/pr-one-1 (1).png",
-        imgsrcTwo:"pr-one-1 (2).png",
-        imgsrcThree:"pr-one-1 (3).png"
-    },
+   
 ]
 
 export default projectData;

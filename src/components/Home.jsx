@@ -11,8 +11,8 @@ const Home = () => {
             <h2>wellcome to <span style={{color:"#6c63ff"}}>Bilal khattak</span> </h2>
             <p style={{color:"#666",letterSpacing:".5px", marginTop:2 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis illo quis explicabo odio facere distinctio sint molestiae voluptatum, quia, ex dolores deleniti sunt.</p>
             <div className="btn_div mt-4">
-            <Button variant="danger" style={{letterSpacing:"1px", border:'none', borderRadius:4, backgroundColor:"#2f2d69", marginRight:24  }}>Youtube</Button>
-            <Button variant="danger" style={{letterSpacing:"1px", border:'none', borderRadius:4, backgroundColor:"#6c63ff", marginRight:24  }}>Projects</Button>
+            <Button variant="danger" style={{letterSpacing:"1px", border:'none', borderRadius:4, backgroundColor:"#2f2d69", marginRight:24  }} disabled>Hire me</Button>
+            <Button variant="danger" style={{letterSpacing:"1px", border:'none', borderRadius:4, backgroundColor:"#6c63ff", marginRight:24  }} disabled>Projects</Button>
             </div>
           </div>
           <div className="right_div">
