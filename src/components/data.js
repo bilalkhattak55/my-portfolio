@@ -9,7 +9,7 @@ const projectData = [
     },
     {
         id:2,
-        projectName:"Zomato Clone",
+        projectName:"My youtube",
         demo:"https://my-youtube-eight.vercel.app/",
         imgsrcOne:"/pr-two (1).png",
         imgsrcTwo:"/pr-two (2).png",
@@ -17,7 +17,7 @@ const projectData = [
     },
     {
         id:3,
-        projectName:"Redux Todo App",
+        projectName:"assignment project",
         demo:"https://portfolio-one-react.vercel.app/",
         imgsrcOne:"/pr-three (1).png",
         imgsrcTwo:"/pr-three (2).png",
@@ -25,8 +25,8 @@ const projectData = [
     },
     {
         id:4,
-        projectName:"H & M Portfolio",
-        demo:"https://hmdeveloper1.herokuapp.com/",
+        projectName:"Notes App",
+        demo:"https://my-cool-react-todo-app.vercel.app/",
         imgsrcOne:"/pr-four (1).png",
         imgsrcTwo:"/pr-four (2).png",
         imgsrcThree:"/pr-four (3).png"
