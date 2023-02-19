@@ -1,0 +1,125 @@
+1----------make component folder and About.js Home.js Footer.js Contact.js Playlist.js Header.js;
+2----------install reactbootstrap;
+npm install react-bootstrap bootstrap
+
+3--------install react-router-dom;
+npm install react-router-dom
+
+4--------import BrowserRouter in index.js and wrap the <App /> component inside it;
+5--------import Routes and Route in App.js and make Routes of all components;
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/Header";
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Playlist from './components/Playlist';
+import {Routes, Route} from 'react-router-dom';
+
+function App() {
+  return (
+    <>
+    <Header />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/contact' element={<Contact />} /> 
+      <Route path='/playlist' element={<Playlist />} />
+    </Routes>
+     <Footer />
+    </>
+  );
+}
+
+export default App;
+
+
+
+6---------Goto Header and make header of the project;
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom';
+
+const Header = () => {
+
+  const common = {
+      marginRight:15,
+      fontSize:17,
+      letterSpacing:'.5px'
+  }
+  return (
+    <>
+      <Navbar bg="light" variant="light">
+        <Container>
+          <div>
+            <h2 className='mt-2 h2_right' style={{ color: '#6c63ff' }}>
+              <Nav.Link href="#home">Bilal khattak</Nav.Link>
+            </h2>
+          </div>
+
+          <Nav className="">
+            <div className='mt-2'>
+              <NavLink to="/" className='text-decoration-none' style={common}>Home</NavLink>
+              <NavLink to="/about" className='text-decoration-none' style={common}>About</NavLink>
+              <NavLink to="/playlist" className='text-decoration-none' style={common}>Project</NavLink>
+              <NavLink to="/contact" className='text-decoration-none' style={common}>Contact</NavLink>
+            </div>
+            <div>
+            <Button variant="danger">Youtube</Button>
+            </div>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
+  )
+}
+
+export default Header;
+
+
+
+
+7--------its time to make Home.js component;
+import React from 'react';
+import "./Home.css";
+import Button from 'react-bootstrap/Button';
+
+const Home = () => {
+  return (
+    <>
+      <div className="container home_container">
+        <div className="home_innerdiv">
+          <div className="left_div">
+            <h2>wellcome to <span style={{color:"#6c63ff"}}>Bilal khattak</span> </h2>
+            <p style={{color:"#666",letterSpacing:".5px", marginTop:2 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis illo quis explicabo odio facere distinctio sint molestiae voluptatum, quia, ex dolores deleniti sunt.</p>
+            <div className="btn_div mt-4">
+            <Button variant="danger" style={{letterSpacing:"1px", border:'none', borderRadius:4, backgroundColor:"#2f2d69", marginRight:24  }}>Youtube</Button>
+            <Button variant="danger" style={{letterSpacing:"1px", border:'none', borderRadius:4, backgroundColor:"#6c63ff", marginRight:24  }}>Projects</Button>
+            </div>
+          </div>
+          <div className="right_div">
+              <h1>Logo</h1>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Home;
+
+
+8---------copy paste css from github repo;
+9---------illustration website link;
+https://undraw.co/illustrations
+
+10---------now its tie to create about page;
+
+
+
+
+
