@@ -7,7 +7,7 @@ const About = () => {
         <div className='container main_container d-flex justify-content-around flex-wrap'>
 
           <div className="left_container mt-5 " style={{width:500}}>
-            <h2>Meet Harsh Pathak</h2>
+            <h2>Meet Bilal khattak</h2>
             <p style={{color:'#666', letterSpacing:".5px", marginTop:2, lineHeight:2}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis perspiciatis commodi nobis cupiditate at assumenda culpa tempore! Cum aut corrupti fugit deserunt ea accusamus soluta omnis nulla nemo officiis? Dolor, fugit! Tempora veniam accusantium error harum unde aliquam molestias libero.</p>
           </div>
 
