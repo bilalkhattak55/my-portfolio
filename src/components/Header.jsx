@@ -17,8 +17,8 @@ const Header = () => {
       <Navbar bg="light" variant="light">
         <Container>
           <div>
-            <h2 className='mt-2 h2_right' style={{ color: '#6c63ff' }}>
-              <Nav.Link href="#home">Bilal khattak</Nav.Link>
+            <h2 className='mt-2 h2_right' >
+              <NavLink style={{ color: '#6c63ff', textDecoration:'none' }} to="/">Bilal khattak</NavLink>
             </h2>
           </div>
 
@@ -26,7 +26,7 @@ const Header = () => {
             <div className='mt-2'>
               <NavLink to="/" className='text-decoration-none' style={common}>Home</NavLink>
               <NavLink to="/about" className='text-decoration-none' style={common}>About</NavLink>
-              <NavLink to="/playlist" className='text-decoration-none' style={common}>Project</NavLink>
+              <NavLink to="/playlist" className='text-decoration-none' style={common}>Projects</NavLink>
               <NavLink to="/contact" className='text-decoration-none' style={common}>Contact</NavLink>
             </div>
             <div>

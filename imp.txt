@@ -117,7 +117,7 @@ export default Home;
 9---------illustration website link;
 https://undraw.co/illustrations
 
-10---------now its tie to create about page;
+10---------now its time to create about page;
 
 
 

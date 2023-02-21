@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import projectData from './data';
 import Spinner from 'react-bootstrap/Spinner';
 import Carousel from 'react-bootstrap/Carousel';
+import './Playlist.css'
 
 
 const Playlist = () => {
@@ -35,7 +36,7 @@ const Playlist = () => {
                       projectData.map((elem, index) => {
                         return (
                           <>
-                            <Card key={index} style={{ width: '20rem', height: 'auto', marginTop: 30 }}>
+                            <Card key={index} style={{ width: '25rem', height: 'auto', marginTop: 30 }}>
 
                               <Carousel>
                                 <Carousel.Item>
@@ -72,9 +73,8 @@ const Playlist = () => {
                               {/* <Card.Img style={{ width: '20rem', marginLeft: -13 }} variant="top" src={elem.imgsrc} /> */}
                               <Card.Body>
                                 <Card.Title>{elem.projectName}</Card.Title>
-                                <Card.Text>
-                                  Some quick example text to build on the card title and make up the
-                                  bulk of the card's content.
+                                <Card.Text style={{height:"200px"}}>
+                                  {elem.description}
                                 </Card.Text>
                                 <Button variant="danger">
                                   <a style={{ color: 'white', textDecoration: 'none', }} href={elem.demo} target='_blank'>Live Demo</a>
