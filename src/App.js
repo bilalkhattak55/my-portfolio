@@ -1,3 +1,4 @@
+import React, {useEffect} from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
@@ -10,6 +11,12 @@ import {Routes, Route} from 'react-router-dom';
 
 
 function App() {
+
+   useEffect(()=> {
+   window.alert("Greetings! I wanted to let you know that my website is currently under construction and undergoing improvements.")
+  }, []);
+
+
   return (
     <>
     <Header />

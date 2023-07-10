@@ -44,6 +44,24 @@ const projectData = [
         imgsrcThree:"/pr-four (3).png",
         description:"this is react note app."
     },
+    {
+        id:6,
+        projectName:"React expense tracker app",
+        demo:"https://expense-tracker-react-app.vercel.app/",
+        imgsrcOne:"/pr-four (1).png",
+        imgsrcTwo:"/pr-four (2).png",
+        imgsrcThree:"/pr-four (3).png",
+        description:"this is react note app."
+    },
+    {
+        id:6,
+        projectName:"React expense tracker app",
+        demo:"https://expense-tracker-react-app.vercel.app/",
+        imgsrcOne:"/pro-seven (1).png",
+        imgsrcTwo:"/pro-seven (2).png",
+        imgsrcThree:"/pro-seven (3).png",
+        description:"this is react note app."
+    },
   
    
 ]

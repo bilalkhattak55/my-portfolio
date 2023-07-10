@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom';
+import "./header.css"
 
 const Header = () => {
 
@@ -27,7 +28,7 @@ const Header = () => {
               <NavLink to="/" className='text-decoration-none' style={common}>Home</NavLink>
               <NavLink to="/about" className='text-decoration-none' style={common}>About</NavLink>
               <NavLink to="/playlist" className='text-decoration-none' style={common}>Projects</NavLink>
-              <NavLink to="/contact" className='text-decoration-none' style={common}>Contact</NavLink>
+              <NavLink to="/contact" className='text-decoration-none contactme' style={common}>Contact</NavLink>
             </div>
             <div>
             <Button variant="danger" disabled>Login</Button>

@@ -45,6 +45,7 @@ const Playlist = () => {
                                     className="d-block w-100"
                                     src={elem.imgsrcOne}
                                     alt="First slide"
+                                    loading='lazy'
                                   />
                                  
                                 </Carousel.Item>
@@ -54,6 +55,7 @@ const Playlist = () => {
                                     className="d-block w-100"
                                     src={elem.imgsrcTwo}
                                     alt="Second slide"
+                                    loading='lazy'
                                   />
 
                                   
@@ -64,6 +66,7 @@ const Playlist = () => {
                                     className="d-block w-100"
                                     src={elem.imgsrcThree}
                                     alt="Third slide"
+                                    loading='lazy'
                                   />
 
                                   
