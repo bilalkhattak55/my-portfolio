@@ -67,7 +67,7 @@ const Home = () => {
               width="350px"
               height="400px"
               className="my-img"
-              src="../images/5f30c2ed-4895-4d2a-935e-70da18311dc1 (2).jfif"
+              src="../images/5f30c2ed-4895-4d2a-935e-70da18311dc1 (2).jfi"
               alt="my-pic"
             />
           </div>

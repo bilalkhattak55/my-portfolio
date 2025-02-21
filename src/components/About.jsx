@@ -16,7 +16,7 @@ const About = () => {
           </div>
 
           <div className='right_container mt-3'>
-              <img src='../images/5f30c2ed-4895-4d2a-935e-70da18311dc1 (2).jfif' alt="my-pic" />
+              <img src='../images/5f30c2ed-4895-4d2a-935e-70da18311dc (2).jfif' alt="my-pic" />
           </div>
         </div>
 
